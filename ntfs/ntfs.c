@@ -175,7 +175,7 @@ NTFS_API int FindNext(struct FIND_RESULT *findResult) {
         }
 
         if (findParams.mask & FIND_MASK_FILENAME) {
-            if (wcsstr(findResult->filename, findParams.filename) == 0) continue;
+            if (wcsstr(findData[m_ctx->mft_num].filename, findParams.filename) == 0) continue;
         }
         if (findParams.mask & FIND_MASK_SIZEFROM) {
             if (data_size < findParams.sizeFrom) continue;
