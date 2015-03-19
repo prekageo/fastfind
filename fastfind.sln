@@ -1,12 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fastfind", "fastfind\fastfind.vcproj", "{F25BEFF9-8768-4A38-8BDD-BC4FB3B3E4AD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{E0808D78-D9A5-4949-AB19-041380ABBF85} = {E0808D78-D9A5-4949-AB19-041380ABBF85}
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fastfind", "fastfind\fastfind.vcxproj", "{F25BEFF9-8768-4A38-8BDD-BC4FB3B3E4AD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ntfs", "ntfs\ntfs.vcproj", "{E0808D78-D9A5-4949-AB19-041380ABBF85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ntfs", "ntfs\ntfs.vcxproj", "{E0808D78-D9A5-4949-AB19-041380ABBF85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
