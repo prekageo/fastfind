@@ -34,6 +34,10 @@
 #endif
 #ifdef HAVE_SYS_TYPES_H
 #include <sys/types.h>
+#else
+#include <wchar.h>
+typedef _dev_t dev_t;
+typedef _off_t off_t;
 #endif
 
 typedef uint8_t  u8;			/* Unsigned types of an exact size */
